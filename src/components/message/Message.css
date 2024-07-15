@@ -1,0 +1,20 @@
+.message {
+    display: grid;
+}
+
+.message h1,
+.message h2,
+.message h3 {
+    animation: glitch 0.06s infinite;
+    background-clip: text;
+    background: linear-gradient( 135deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ff7d, #00fffb, #0094ff, #002fff, #7300ff, #ff00fb, #ff007d, #ff0000);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.711);
+}
+
+@keyframes glitch {
+    50% {
+        transform: skew(180deg);
+    }
+}

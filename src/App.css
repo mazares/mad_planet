@@ -1,0 +1,10 @@
+.app {
+    display: grid;
+    height: 100dvh;
+    background: radial-gradient(circle, rgb(84, 84, 84) 0%, rgb(32, 32, 32) 100%);
+    color: #e7e7e7;
+    place-content: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
